@@ -54,216 +54,216 @@ function asmList() {
     // }
 
     var data = 
-        {
-            "Status_res": "Input Matched",
-            "expired_time": "27/04/2023",
-            "assessment_element_list": [
-              {
-                "asssessment_element_title": "Assignment 1",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": false,
-                "Status": 6,
-                "Mark": 0,
-                "Review_times": 0,
-                "Review_times_max": 0
-              },
-              {
-                "asssessment_element_title": "Assignment 2",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 8,
-                "Review_times": 2,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 3",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 0,
-                "Review_times": 1,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 4",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 0,
-                "Review_times": 2,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 5",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 2,
-                "Mark": "NULL",
-                "Review_times": 0,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 6",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 3,
-                "Mark": 5,
-                "Review_times": 1,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 7",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 4,
-                "Mark": 10,
-                "Review_times": 0,
-                "Review_times_max": 0
-              },
-              {
-                "asssessment_element_title": "Assignment 8",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 5,
-                "Mark": 9,
-                "Review_times": 2,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 9",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 1,
-                "Mark": "NULL",
-                "Review_times": 0,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Assignment 10",
-                "asssessment_type_title": "Assignment",
-                "option": [
-                  "1",
-                  "2"
-                ],
-                "Required_Interview": false,
-                "Status": 1,
-                "Mark": "NULL",
-                "Review_times": 0,
-                "Review_times_max": 0
-              },
-              {
-                "asssessment_element_title": "Lab 1",
-                "asssessment_type_title": "Lab",
-                "option": [
-                  "1"
-                ],
-                "Required_File": false,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 5,
-                "Review_times": 1,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Lab 2",
-                "asssessment_type_title": "Lab",
-                "option": [
-                  "1"
-                ],
-                "Required_File": false,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 5,
-                "Review_times": 2,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Lab 3",
-                "asssessment_type_title": "Lab",
-                "option": [
-                  "1"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 5,
-                "Review_times": 1,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Lab 4",
-                "asssessment_type_title": "Lab",
-                "option": [
-                  "1"
-                ],
-                "Required_File": true,
-                "Required_Interview": true,
-                "Status": 6,
-                "Mark": 5,
-                "Review_times": 2,
-                "Review_times_max": 2
-              },
-              {
-                "asssessment_element_title": "Final Exam",
-                "asssessment_type_title": "Lab",
-                "option": [
-                  "1"
-                ],
-                "Required_File": false,
-                "Required_Interview": true,
-                "Status": 1,
-                "Mark": "NULL",
-                "Review_times": 0,
-                "Review_times_max": 3
-              }
-            ]
-          };
+    {
+        "Status_res": "Input Matched",
+        "expired_time": "27/04/2023",
+        "assessment_element_list": [
+          {
+            "asssessment_element_title": "Assignment 1",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": false,
+            "Status": 6,
+            "Mark": 0,
+            "Review_times": 0,
+            "Review_times_max": 0
+          },
+          {
+            "asssessment_element_title": "Assignment 2",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 8,
+            "Review_times": 2,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 3",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 0,
+            "Review_times": 1,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 4",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 0,
+            "Review_times": 2,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 5",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 2,
+            "Mark": "NULL",
+            "Review_times": 0,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 6",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 3,
+            "Mark": 5,
+            "Review_times": 1,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 7",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 4,
+            "Mark": 10,
+            "Review_times": 0,
+            "Review_times_max": 0
+          },
+          {
+            "asssessment_element_title": "Assignment 8",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 5,
+            "Mark": 9,
+            "Review_times": 2,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 9",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1",
+              "2"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 1,
+            "Mark": "NULL",
+            "Review_times": 0,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Assignment 10",
+            "asssessment_type_title": "Assignment",
+            "option": [
+              "1"
+            ],
+            "Required_File": true,
+            "Required_Interview": false,
+            "Status": 1,
+            "Mark": "NULL",
+            "Review_times": 0,
+            "Review_times_max": 0
+          },
+          {
+            "asssessment_element_title": "Lab 1",
+            "asssessment_type_title": "Lab",
+            "option": [
+              "1"
+            ],
+            "Required_File": false,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 5,
+            "Review_times": 1,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Lab 2",
+            "asssessment_type_title": "Lab",
+            "option": [
+              "1"
+            ],
+            "Required_File": false,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 5,
+            "Review_times": 2,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Lab 3",
+            "asssessment_type_title": "Lab",
+            "option": [
+              "1"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 5,
+            "Review_times": 1,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Lab 4",
+            "asssessment_type_title": "Lab",
+            "option": [
+              "1"
+            ],
+            "Required_File": true,
+            "Required_Interview": true,
+            "Status": 6,
+            "Mark": 5,
+            "Review_times": 2,
+            "Review_times_max": 2
+          },
+          {
+            "asssessment_element_title": "Final Exam",
+            "asssessment_type_title": "Lab",
+            "option": [
+              "1"
+            ],
+            "Required_File": false,
+            "Required_Interview": true,
+            "Status": 1,
+            "Mark": "NULL",
+            "Review_times": 0,
+            "Review_times_max": 3
+          }
+        ]
+      };
 
     return data;
 }
