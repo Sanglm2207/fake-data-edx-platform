@@ -7,7 +7,7 @@ function asmList() {
         "assessment_element_list": []
     };
 
-    var Status_res1 = ['Input Matched', 'Cannot Find'];
+    var Status_res1 = ['Input Matched'];
     var assignmentElementTitles = ['Assignment 1', 'Assignment 2', 'Assignment 3', 'Assignment 4', 'Assignment 5', 'Assignment 6'];
     var otherElementTitles = ['Lab', 'Final Exam'];
 
@@ -15,8 +15,9 @@ function asmList() {
         let asssessment_element_title = faker.random.arrayElement([...assignmentElementTitles, ...otherElementTitles]);
         let status = faker.random.arrayElement(['File Submitted', 'Assigned']);
         let Status_res = faker.random.arrayElement(Status_res1);
-        let expired_time = faker.date.between("2018-01-01", "2018-07-31").toISOString().split("T")[0];
-        
+        let expired_date = faker.date.between("2023-01-01", "2023-07-31");
+        let expired_time = `${expired_date.getDate().toString().padStart(2, '0')}/${(expired_date.getMonth() + 1).toString().padStart(2, '0')}/${expired_date.getFullYear()}`;
+                
         let asssessment_type_title = '';
         if (assignmentElementTitles.includes(asssessment_element_title)) {
             asssessment_type_title = 'Assignment';
