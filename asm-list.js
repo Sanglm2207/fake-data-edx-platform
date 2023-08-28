@@ -24,27 +24,6 @@ function asmList() {
             Status_res = faker.random.arrayElement(Status_res1);
         }
 
-        // Set assessment_element_list based on Status_res
-        let assessment_element_list = null;
-        if (Status_res === 'Cannot Find Email' || Status_res === 'Cannot Find Instant') {
-            assessment_element_list = null;
-        } else {
-            assessment_element_list = [
-                {
-                    // "asssessment_element_id": course_code,
-                    "asssessment_element_title": asssessment_element_title,
-                    "asssessment_type_title": asssessment_type_title,
-                    "option": ["1", "2"],
-                    "Required_File": true,
-                    "Required_Interview": true,
-                    "Status": status,
-                    "Mark": mark,
-                    "Review_times": review_times,
-                    "Review_times_max": review_times_max
-                }
-            ];
-        }
-
         // Check if the selected assessment element title is an assignment from 1 to 6
         if (assignmentElementTitles.includes(asssessment_element_title)) {
             var asssessment_type_title = 'Assignment';
@@ -62,7 +41,20 @@ function asmList() {
         data.push({
             "Status_res": Status_res,
             "expired_time": expired_time,
-            "assessment_element_list": assessment_element_list
+            "assessment_element_list": [
+                {
+                    // "asssessment_element_id": course_code,
+                    "asssessment_element_title": asssessment_element_title,
+                    "asssessment_type_title": asssessment_type_title,
+                    "option": ["1", "2"],
+                    "Required_File": true,
+                    "Required_Interview": true,
+                    "Status": status,
+                    "Mark": mark,
+                    "Review_times": review_times,
+                    "Review_times_max": review_times_max
+                }
+            ]
         });
     }
 
