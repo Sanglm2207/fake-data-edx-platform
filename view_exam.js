@@ -13,7 +13,7 @@ function view_exam() {
         "date_register": "17/08/2023",
         "time_register": "Evening", // Morning / Afternoon/ Evening
         "datetime_interview": "21:00 17/08/2023",
-        "File_link": "https://youtu.be/FudyUokcrG8?si=-z5ikqa1JjYuKgI_",
+        "File_link": "https://drive.google.com/file/d/0B-hTIM3aG_oJWnpxdGtXV2Z2YlE/view?usp=sharing&export=download",
         "Mentor_email": "xuandta1@funix.edu.vn",
         "Option_selected": "1",
         "Comment_Mentor": "Học viên làm bài tốt, hiểu bài",

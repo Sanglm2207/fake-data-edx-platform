@@ -4,7 +4,7 @@ function view_asm() {
 
     var data =
     {
-        "course_code": "WEB101-2A",
+        "course_code": "CPP101x_01_VN Lập trình C++ cơ bản",
         "asssessment_element_title": "Assignment 1",
         "Status": 5,
         "Mark": 9,
@@ -13,7 +13,7 @@ function view_asm() {
         "date_register": "17/08/2023",
         "time_register": "Evening", // Morning / Afternoon/ Evening
         "datetime_interview": "21:00 17/08/2023",
-        "File_link": "https://youtu.be/xTyLiqWL3uk?si=9ideF_u-4_LcsAnY",
+        "File_link": "https://drive.google.com/file/d/0B-hTIM3aG_oJWnpxdGtXV2Z2YlE/view?usp=sharing&export=download",
         "Mentor_email": "mentorabc@funix.edu.vn",
         "Option_selected": "1",
         "Comment_Mentor": "Học viên làm bài tốt, hiểu bài",
