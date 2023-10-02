@@ -1,0 +1,6 @@
+/* Responsive layout */
+@media (max-width: 767px) {
+    .equal-width-td {
+        width: auto;
+    }
+}
