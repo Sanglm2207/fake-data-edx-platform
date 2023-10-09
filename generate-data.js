@@ -23,7 +23,7 @@ function generateData() {
             "date_register": date_register,
             "time_register": time_register, // Morning / Afternoon/ Evening
             "datetime_interview": datetime_interview,
-            "File_link": "https://drive.google.com/file/d/0B-hTIM3aG_oJWnpxdGtXV2Z2YlE/view?usp=sharing&export=download",
+            "File_link": "https://cdn.theforage.com/vinternships/companyassets/MdKvo8dBLF8h9wCnx/boCQJL8iMAvgjLKmf/1665629767406/image%20(1).pdf",
             "Mentor_email": "mentorabc@funix.edu.vn",
             "Option_selected": "1",
             "Comment_Mentor": "Học viên làm bài tốt, hiểu bài",

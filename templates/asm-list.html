@@ -31,7 +31,7 @@
                                         <th scope="col">STT</th>
                                         <th scope="col">Thành phần điểm</th>
                                         <th scope="col">Trạng thái</th>
-                                        <th scope="col">Hành động</th>
+                                        <th scope="col" class="action-column">Hành động</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -39,26 +39,23 @@
                                         <th scope="row">1</th>
                                         <td>Assignment 1</td>
                                         <td>
-                                            <button
-                                                type="button"
-                                                class="btn btn-success equal-width-td"
-                                            >
+                                            <p class="card-text text-danger equal-width-td">
                                                 Passed
-                                            </button>
+                                            </p>
                                         </td>
-                                        <td>
+                                        <td class="action-column">
                                           <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
                                             <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Xem chi tiết" >
                                                 <i class="fa-solid fa-circle-info"></i>
-                                                <!-- <span>Xem chi tiết</span> -->
+                                                <span>Xem chi tiết</span>
                                             </button>
                                             <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Nộp bài">
                                                 <i class="fa-solid fa-plus"></i>
-                                                <!-- <span>Nộp bài</span> -->
+                                                <span>Nộp bài</span>
                                             </button>
                                             <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Đặt lịch">
                                                 <i class="fa-regular fa-calendar-days"></i>
-                                                <!-- <span>Đặt lịch</span> -->
+                                                <span>Đặt lịch</span>
                                             </button>
                                           </div>
                                         </td>
@@ -67,19 +64,25 @@
                                         <th scope="row">2</th>
                                         <td>Mark</td>
                                         <td>
-                                            <button
-                                                type="button"
-                                                class="btn btn-success equal-width-td"
-                                            >
+                                            <p class="card-text text-success equal-width-td">
                                                 Passed
-                                            </button>
+                                            </p>
                                         </td>
-                                        <td>
-                                          <div class="btn-group" role="group" aria-label="Basic example">
-                                            <button type="button" class="link-btn">Xem</button>
-                                            <button type="button" class="link-btn">Nộp bài</button>
-                                            <button type="button" class="link-btn">Đặt lịch</button>
-                                          </div>
+                                        <td class="action-column">
+                                            <div class="btn-group-sm" role="group" aria-label="Basic outlined example">
+                                                <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Xem chi tiết" >
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                    <span>Xem chi tiết</span>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Nộp bài">
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    <span>Nộp bài</span>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top" title="Đặt lịch">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                    <span>Đặt lịch</span>
+                                                </button>
+                                              </div>
                                         </td>
                                     </tr>
                                     <!-- Add more table rows here -->

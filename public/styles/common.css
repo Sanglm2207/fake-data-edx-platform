@@ -87,6 +87,11 @@ body {
     background-color: #007bff;
     color: #fff;
 }
+.action-column {
+    position: sticky;
+    left: 100%;
+    /* width: 100px; */
+}
 
 /* Custom classes */
 .text-center {
