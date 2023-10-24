@@ -3,4 +3,11 @@
     .equal-width-td {
         width: auto;
     }
+    .col-6 {
+        width: 100%;
+    }
+    
+    .card {
+    margin-top: 0;
+    }
 }
