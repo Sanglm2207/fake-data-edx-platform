@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Tab</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="./script.js"></script>
+    <style>
+        .nav-tabs .nav-item .nav-link {
+            background-color: transparent;
+            border: none;
+        }
+        .nav-tabs .nav-item .nav-link.active {
+            border: none;
+            border-bottom: 2px solid #007bff;
+            margin-right: 2px;
+        }
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%; 
+        }
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-3">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="booking-tab" data-bs-toggle="tab" href="#booking" role="tab" aria-controls="booking" aria-selected="true">Booking</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="history-tab" data-bs-toggle="tab" href="#history" role="tab" aria-controls="history" aria-selected="false">History</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="booking" role="tabpanel" aria-labelledby="booking-tab">
+            <div class="form-container mt-5">
+                <form>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="activity" class="form-label">Lựa chọn hoạt động: <span class="required">(*)</span></label>
+                        </div>
+                        <div class="col-md-8 mb-3">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="activity" id="male" value="mentor">
+                                <label class="form-check-label" for="mentor">Mentor</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="activity" id="female" value="tutor">
+                                <label class="form-check-label" for="tutor">Tutor</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="activity" id="other" value="other">
+                                <label class="form-check-label" for="other">Hỏi đáp chung</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="email" class="form-label">Lựa chọn môn học: <span class="required">(*)</span></label>
+                        </div>
+                        <div class="col-md-8 mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="email" class="form-label">Chọn ngày: <span class="required">(*)</span></label>
+                        </div>
+                        <div class="col-md-8 mb-3">
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="email" class="form-label">Chọn giờ: <span class="required">(*)</span></label>
+                        </div>
+                        <div class="col-md-8 mb-3">
+                            <input type="time" class="form-control" id="time" name="time" step="3600">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="email" class="form-label">Chọn Mentor phụ trách:</label>
+                        </div>
+                        <div class="col-md-8 mb-3">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Select</th>
+                                        <th scope="col" colspan="5">Mentor phụ trách</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td > 
+                                            <label class="form-check-label" for="table1">Lê Đình Tư</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td>
+                                            <label class="form-check-label" for="table1">Nguyễn Ngọc Đại</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td > 
+                                            <label class="form-check-label" for="table1">Trần Minh Trang</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td>
+                                            <label class="form-check-label" for="table1">Vũ Thị Thanh Huyền</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td > 
+                                            <label class="form-check-label" for="table1">Vũ Trọng Hiếu</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="form-check-input" type="radio" name="table" id="table1" value="table1">
+                                        </td>
+                                        <td>
+                                            <label class="form-check-label" for="table1">Nguyễn Ngọc Đại</label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Đặt lịch</button>
+                </form>
+            </div>
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h2>Bạn đã đặt lịch thành công! </h2>
+                        <br/>
+                        <p>Vui lòng kiểm tra email trangntfx18121@funix.edu.vn để nhận đường link Zoom. </p>
+                        <i>Lưu ý: Trường hợp nếu bạn không sắp xếp tham dự được theo lịch đã đăng ký, vui lòng phản hồi qua email trong vòng 24 tiếng trước thời gian đã đăng ký để bảo lưu phiên hỏi đáp.</i>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
+            <h2>Tab History</h2>
+            <p>Nội dung của tab History nằm ở đây.</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

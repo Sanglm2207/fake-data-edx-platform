@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const generateData = require('./generate-data');
 const asmList = require('./asm-list');
 const view_asm = require('./view_asm');
@@ -7,6 +8,7 @@ const view_lab = require('./view_lab');
 const view_exam = require('./view_exam');
 
 const app = express();
+app.use(express.static(path.join(__dirname, 'mentor')));
 const port = 3000;
 
 // Use the cors middleware
@@ -35,6 +37,10 @@ app.get('/view_lab', (req, res) => {
 app.get('/view_exam', (req, res) => {
     const data = view_exam();
     res.json(data);
+});
+
+app.get('/booking-mentor', (req, res) => {
+    res.sendFile(path.join(__dirname, 'mentor', 'index.html'));
 });
 
 app.listen(port, () => {
